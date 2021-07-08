@@ -15,8 +15,11 @@ const useStyles = makeStyles((theme) => ({
 const SpecifyContents = (props) => {
     const classes= useStyles();
     return (
-        <TextField onKeyDown={(e) => props.handleKeyDown(e)} onChange={props.handleInputChange} 
-        className={classes.root} id="outlined-basic" label="Enter zip code." variant="outlined" />
+        <TextField 
+        onKeyDown={(e) => props.handleKeyDown(e)} 
+        onChange={props.handleInputChange} 
+        className={classes.root} 
+        label="Enter zip code." variant="outlined" />
     )
 }
 
