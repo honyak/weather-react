@@ -1,14 +1,14 @@
 import axios from "axios";
 
-// const google = {
-//     BASEURL: process.env.REACT_APP_googleURL,
-//     APIKEY: process.env.REACT_APP_googleKEY
-// }
+const google = {
+    BASEURL: process.env.REACT_APP_googleURL,
+    APIKEY: process.env.REACT_APP_googleKEY
+}
 
-// const openweather = {
-//     BASEURL: process.env.REACT_APP_openweatherURL,
-//     APIKEY: process.env.REACT_APP_openweatherKEY
-// }
+const openweather = {
+    BASEURL: process.env.REACT_APP_openweatherURL,
+    APIKEY: process.env.REACT_APP_openweatherKEY
+}
 const API = {
 
     getGeocode: function (zip) {
