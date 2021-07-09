@@ -87,7 +87,7 @@ class App extends Component {
         {this.state.result.map((el, i) => {
           return (
             <DayCard
-              key={el[i]}
+              key={i}
               date={moment.unix(el.dt).format('D')}
               displayDate={moment.unix(el.dt).format('dddd, MMMM Do -- h:mm A')}
               high={el.main.temp_max}

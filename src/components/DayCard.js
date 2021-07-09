@@ -47,13 +47,13 @@ const DayCard = (props) => {
                     </AccordionSummary>
                 </Paper>
                 <AccordionDetails>
-                    <Typography className={classes.typo} variant="p" component="p">
+                    <Typography className={classes.typo} variant="h5" component="h5">
                         <ArrowUpward /> High: {props.high}
                     </Typography>
-                    <Typography className={classes.typo} variant="p" component="p">
+                    <Typography className={classes.typo} variant="h5" component="h5">
                         <ArrowDownward />Low: {props.low}
                     </Typography>
-                    <Typography className={classes.typo} variant="p" component="p">
+                    <Typography className={classes.typo} variant="h5" component="h5">
                         <WbSunny />Condition: {props.condition}
                     </Typography>
                 </AccordionDetails>
